@@ -1,0 +1,21 @@
+{
+  "name": "openmusicapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "migrate":"node-pg-migrate"
+  },
+  "author": "alif adwitiya",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "@hapi/hapi": "^20.1.0",
+    "dotenv": "^16.0.0",
+    "joi": "^17.6.0",
+    "nanoid": "^3.1.20",
+    "node-pg-migrate": "^6.2.1",
+    "pg": "^8.7.3"
+  }
+}
